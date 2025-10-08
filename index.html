@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Saya</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffe6f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 40px 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* diganti dari center ke flex-start */
+      flex-wrap: wrap;
+      text-align: left;
+    }
+
+    .header-content {
+      max-width: 600px;
+      margin-left: 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-right: 20px; /* ditambahkan untuk geser ke kiri */
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #d63384;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .header-content {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      section {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="foto halimah.jpeg" alt="Foto Profil Halimah" class="profile-img">
+    <div class="header-content">
+      <h1>HALIMAH</h1>
+      <p>Perjalanan Saya dan Prestasi Saya</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Tentang Saya</h2>
+    <div class="card">
+      <p>Halo! Nama Saya Halimah, saya menempuh pendidikan dasar di SD pada tahun 2013-2019 dan melanjutkan smp di (SMP NEGERI 1 TANJUNG TIRAM) pada tahun 2019-2022 dan melanjutkan sma di(SMA NEGERI 1 TANJUNG TIRAM) dan saat ini saya sedang menempuh pendidikan di perguruan tinggi,di (UNIVERSITAS NEGERI MEDAN)dari program studi S1-ILMU KOMPUTER UNIVERSITAS NEGERI MEDAN, Saya berusia 18 tahun, tinggi badan saya 152cm, dan saya tinggal di kabupaten batu bara, kecamatan Tanjung Tiram. Cita-cita saya sebetulnya jadi dokter tapi saya masuk ke jurusan komputer.</p>
+    </div> 
+  </section>
+
+  <section>
+    <h2>Pengalaman Saya</h2>
+    <div class="card">
+      <ul>
+        <li><strong>2022:</strong> Mengikuti lomba Dhasa Darma.</li>
+        <li><strong>2024:</strong> Mengikuti kegiatan bola tangan.</li>
+        <li><strong>2025:</strong> Mengikuti olimpiade online pelajaran biologi.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Prestasi</h2>
+    <div class="card">
+      <ul>
+        <li>Juara 1 Bola Tangan, 2024</li>
+        <li>Juara 2 Dhasa Darma, 2021</li>
+        <li>Peserta Olimpiade Biologi, 2025</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 Halimah. Seluruh hak cipta dilindungi.
+  </div>
+</body>
+</html>
